@@ -1,0 +1,34 @@
+#em1 {
+   position: relative;
+   top: 20px;
+   right: 60px;
+   background-color: green;
+   /*when an element is removed the space remains*/
+}
+#em2 {
+   position: absolute;
+   top: 90px;
+   right: 60px;
+   background-color: green;
+   /*when an element is removed the space is closed up*/
+}
+.div2 {
+   width: 300px;
+   height: 120px;
+   background-color: #ccc;
+   border: 2px solid black;
+   border-radius: 20px;
+   position: relative;
+}
+.div2a {
+   position: absolute;
+   top: 20px;
+   right: 30px;
+   bottom: 40px;
+   left: 50px;
+   border-radius: 20px;
+   border: 2px solid black;
+   background-color: teal;
+}
+
+
